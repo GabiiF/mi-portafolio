@@ -47,6 +47,8 @@ section.menu{
     /*align-items: center;
     position: fixed;
     top: 0;*/
+    position: sticky;
+    top: 0;
 
 }
 .menu__header{
@@ -67,8 +69,37 @@ section.menu{
 /*Sección Title*/
 
 section.title{
-
+    display: flex;
+    justify-content:space-around;
+    /*margin: 5% 7%;*/
+    padding: 5% 4%;
 }
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+.title__bio{
+    font-size: 3rem;
+    font-weight:bold;
+}
+
+.title__network{
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+
+
+
 
 /*Sección About*/
 
