@@ -72,13 +72,14 @@ section.title{
     display: flex;
     justify-content:space-around;
     /*margin: 5% 7%;*/
-    padding: 5% 4%;
+    
 }
 
 .title__div{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    padding: 5% 6%;
 }
 
 .title__container{
@@ -97,14 +98,20 @@ section.title{
     padding: 0;
 }
 
-
-
-
-
 /*Sección About*/
 
 section.about{
+    display: flex;   
+    background-color: #EAF2FD;
+    /*justify-content: space-around;*/
+}
 
+.about__container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: flex-start;
+    padding: 4em 7em;
 }
 
 /*Sección Hobbies*/
