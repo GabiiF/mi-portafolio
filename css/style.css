@@ -115,8 +115,7 @@ section.about{
 }
 
 /*Sección Hobbies*/
-.skills__title, .hobbies__title{
-    font-family: "Raleway";
+.skills__title{
     font-size: 2em;
 }
 section.skills{
@@ -153,6 +152,31 @@ section.hobbies{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.hobbies__title{
+    font-size: 2em;
+}
+.hobbies__line{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.hobbies__box{
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    background-color: white;
+    width: 176px;
+    height: 174px;
+}
+.hobbies__box ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px;
+    margin: 0;
+    font-weight: bold;
 }
 
 /* Experiencia Académica*/
