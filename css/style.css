@@ -212,7 +212,55 @@ section.academic{
 /* experiencia*/
 
 section.experience{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+.experience__section__title{
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+.experience__box{
+    width: 1136px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.experience__box:nth-child(odd){
+    width: 1136px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+.experience__info{
+    width: 368px;
+}
+.experience__title ,.experience__text{
+    margin: 10px 0;
+}
+.experience__text{
+    font-weight: 500;
+}
+.experience__description{
+    display: flex;
+    gap: 16px;
+}
+/*botones*/
+.experiencia__botao--repo{
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    padding: 16px;
+    border: 1px solid #2A7AE4;
+    font-family: 'Raleway';
+}
+.experience__botao--demo{
+    background-color: #2A7AE4;
+    color: white;
+    padding: 16px;
+    border: 1px solid #2A7AE4;
+    font-family: 'Raleway';
 }
 
 /*Contacto*/
