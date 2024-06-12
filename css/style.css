@@ -581,7 +581,6 @@ Utiliza las referencias de los breakpoints @media abajo */
         width: 100%;
         justify-content: center;
     }
-
     .skills__box {
         display: flex;
         align-items: flex-end;
@@ -611,7 +610,6 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
     /*Formación Académica*/
-    /*-----       Falta    -----------*/
     section.academic {
         margin-top: 3em;
     }
