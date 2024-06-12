@@ -612,6 +612,21 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     /*Formación Académica*/
     /*-----       Falta    -----------*/
+    section.academic {
+        margin-top: 3em;
+    }
+    .academic__courses__item__img {
+        padding: 0em;
+        height: 118px;
+    }
+    .academic__courses {
+        width: 90%;
+        display: flex;
+        gap: 16px;
+    }
+    .academic__courses__box {
+        height: 169px;
+    }
 
     /*Experiencia Profesional*/
     .experience__box {
