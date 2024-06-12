@@ -264,10 +264,143 @@ section.experience{
 }
 
 /*Contacto*/
-
 section.formcontato{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAF2FD;
+    padding: 2em;
 }
+.formcontato__contacto{
+    padding: 64px 0px 0px 0px;
+    width: 1136px;
+    display: flex;
+    gap: 16px;
+}
+.formcontato--esquerda{
+    /*float: left;*/
+}
+.formcontato__text{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.formcontato__title{
+    font-size: 2em;
+    margin-top: 0em;
+}
+.formcontato__subtext{
+    margin: 0em;
+    font-size: 16px;
+    font-weight: unset;
+}
+/* formulario*/
+.formcontato__form{
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-self: normal;
+}
+.formcontato__textarea{
+    border: none;
+    border-radius: 4px;
+}
+.formcontato__boton{
+    padding: 1em;
+    color: white;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    font-family: 'Raleway';
+    align-self: baseline;
+}
+
+
+/*------------*/
+ /* Contenedor del formulario */
+.form-group {
+    position: relative;
+  }
+  
+  /* Estilo para el input */
+  .form-group input, .form-group textarea{
+    width: 100%;
+    padding: 1.5em 1em 0.5em;
+    border-style: none;
+    border-color: #ccc;
+    border-bottom-style: revert;
+    border-radius: 5px 5px 0 0;
+    transition: border-color 0.3s;
+    font-family: 'Raleway';
+  }
+  
+  /* Estilo para la etiqueta flotante */
+  .form-group label {
+    position: absolute;
+    /*top: 0;*/
+    top:1em;
+    left: 10px;
+    pointer-events: none;
+    transition: transform 0.3s, font-size 0.3s;
+    color: #aaa9a9;
+    font-family: 'Raleway';
+  }
+  
+  /* Cuando el input está enfocado o tiene texto */
+  .formcontato__input:focus,.formcontato__email:focus, .form-group textarea:focus{
+    border: none;
+    border-bottom: solid #007bff;
+  }
+  /*cuando lo selecciono - el borde sino se hace amarillo*/
+  .formcontato__input:focus-visible,.formcontato__email:focus-visible, .form-group textarea:focus-visible{
+    border: none;
+    border-bottom: solid #007bff;
+    outline: none;
+  }
+  .formcontato__input:focus + label,
+  .formcontato__input:placeholder-shown + label,.formcontato__input:valid + label{
+    /*transform: translateY(-20px);*/
+    transform: translateY(-8px);
+    position: absolute;
+    font-size: 12px;
+    color: #706e6e;
+  }
+  /*texarea*/
+  .formcontato__textarea:focus + label,
+  .formcontato__textarea:placeholder-shown + label, .formcontato__textarea:valid +  label{
+    transform: translateY(-8px);
+    font-size: 12px;
+    color: #706e6e;
+  }
+  /*textarea e inputs - color del label cuando toco para escribir*/
+  .formcontato__input:focus-visible + label, .formcontato__email:focus-visible + label,.form-group textarea:focus-visible + label{
+    color: #007bff;
+  }
+/* Estilo para cuando el campo email tiene contenido */
+.formcontato__email:focus::placeholder {
+    transform: translateY(-8px);
+    font-size: 12px;
+    color: #2A7AE4;
+    }
+/*.formcontato__email:focus + label,
+.formcontato__email:placeholder-shown + label{
+    transform: translateY(-8px);
+    font-size: 12px;
+    color: #007bff;
+  }*/
+ /* input[type="email"]:valid + label{/*se posiciona bien,tiene el color,*/
+   /* transform: translateY(-8px);
+    font-size: 12px;
+    color: #706e6e;
+  }*/
+/*input[type="email"]:valid + label,
+input[type="email"]:invalid + label {
+      transform: translateY(-8px);
+      font-size: 12px;
+      color: #706e6e;
+    }*/
+/*--------------*/
 
 /*footeer*/
 
