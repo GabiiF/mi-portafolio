@@ -402,10 +402,18 @@ input[type="email"]:invalid + label {
     }*/
 /*--------------*/
 
-/*footeer*/
-
+/*footer*/
 section.footer{
-   
+   background-color: #FFFFFF;
+}
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em 0;
+}
+.footer__rodape p{
+    margin: 0.2em;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
