@@ -708,7 +708,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (max-width: 552px){/*(max-width: 425px)*/
 
     /*Menu*/
     section.menu {
@@ -861,7 +861,6 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
     .experience__box {
         width: 90%;
-        height: auto;
         /*width: 1136px;*/
         /*cambio esto*/
         display: flex;
@@ -882,10 +881,10 @@ Utiliza las referencias de los breakpoints @media abajo */
         flex-shrink: 1;
         justify-content: center;
     }
-    .experience__img{
+    /*.experience__img{
         width: 296px;
         height: 144px;
-    }
+    }*/
     .experience__info {
         width: 288px;
     }
