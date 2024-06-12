@@ -873,7 +873,6 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     .experience__box:nth-child(odd) {
         width: 90%;
-        height: auto;
         /*width: 1136px;*/
         /*cambio esto*/
         display: flex;
