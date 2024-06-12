@@ -128,11 +128,13 @@ section.skills{
     display: flex;
     flex-direction: row;
     gap: 15px;
+    width: 100%;
+    justify-content: center;
 }
 .skills__box{
     display: flex;
     align-items: flex-end;
-    width: 20%;
+    /*width: 20%;*/
     background-color: white;
     width: 176px;
     height: 174px;
@@ -144,6 +146,7 @@ section.skills{
     gap: 8px;
     padding: 16px;
     margin: 0;
+    justify-content: center;
     font-weight: bold;
 }
 
@@ -161,6 +164,8 @@ section.hobbies{
     display: flex;
     flex-direction: row;
     gap: 15px;
+    width: 100%;
+    justify-content: center;
 }
 .hobbies__box{
     display: flex;
@@ -178,6 +183,7 @@ section.hobbies{
     padding: 16px;
     margin: 0;
     font-weight: bold;
+    justify-content: center;
 }
 
 /* Experiencia Académica*/
@@ -193,20 +199,27 @@ section.academic{
     font-size: 2em;
 }
 .academic__courses{
+    width: 90%;
     display: flex;
     flex-direction: row;
     gap: 16px;
+    justify-content: center;
 }
 .academic__courses__box{
-    width: 368px;
+    width: 30%;
+    /*width: 368px;
+    width: 85%;*/
     height: 347px;
 }
 .academic__courses__list h4,.academic__courses__list p{
     margin: 0.5em 0;
 }
 .academic__courses__item__img{
+    display: flex;
     background-color: white;
     padding: 4em 5em;
+    justify-content: center;
+    height: 130px;
 }
 
 /* experiencia*/
@@ -222,17 +235,23 @@ section.experience{
     margin-top: 1.5em;
 }
 .experience__box{
-    width: 1136px;
+    width: 100%;
+    /*width: 1136px;*//*cambio esto*/
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-shrink: 1;
+    justify-content: center;
 }
 .experience__box:nth-child(odd){
-    width: 1136px;
+    width: 100%;
+    /*width: 1136px;*//*cambio esto*/
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     gap: 20px;
+    flex-shrink: 1;
+    justify-content: center;
 }
 .experience__info{
     width: 368px;
@@ -273,9 +292,10 @@ section.formcontato{
 }
 .formcontato__contacto{
     padding: 64px 0px 0px 0px;
-    width: 1136px;
+    /*width: 1136px;*//*cambio esto*/
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
 .formcontato--esquerda{
     /*float: left;*/
@@ -301,7 +321,8 @@ section.formcontato{
     display: flex;
     flex-direction: column;
     gap: 1em;
-    align-self: normal;
+    /*align-self: normal;*/
+    width: 95%;
 }
 .formcontato__textarea{
     border: none;
