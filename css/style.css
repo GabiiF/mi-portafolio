@@ -708,18 +708,19 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 425px) {
 
     /*Menu*/
     section.menu {
         display: flex;
         justify-content: space-between;
         position: sticky;
-        padding: 1em 2em 0;
+        padding: 1em;
         top: 0;
     }
     .menu__title{
         font-size: 16px;
+        text-wrap: balance;
     }
     .menu__list__item {
         display: none;
@@ -879,6 +880,15 @@ Utiliza las referencias de los breakpoints @media abajo */
         gap: 20px;
         flex-shrink: 1;
         justify-content: center;
+    }
+    .experience__info {
+        width: 288px;
+    }
+    .experience__title{
+        font-size: 16px;
+    }
+    .experience__text{
+        font-size: 14px;
     }
     /*Contacto*/
     section.formcontato {
