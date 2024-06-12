@@ -708,7 +708,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (min-width: 425px) and (max-width: 767px) {
 
     /*Menu*/
     section.menu {
