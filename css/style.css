@@ -265,7 +265,7 @@ section.experience {
     display: flex;
     align-items: center;
     gap: 20px;
-    flex-shrink: 1;
+    /*flex-shrink: 1;*/
     justify-content: center;
 }
 
@@ -277,7 +277,7 @@ section.experience {
     flex-direction: row-reverse;
     align-items: center;
     gap: 20px;
-    flex-shrink: 1;
+    /*flex-shrink: 1;*/
     justify-content: center;
 }
 
@@ -661,7 +661,8 @@ Utiliza las referencias de los breakpoints @media abajo */
         flex-direction: column;
         align-items: stretch;
         gap: 20px;
-        flex-shrink: 1;
+        /*flex-shrink: 1;*/
+        justify-content: center;
     }
 
     .experience__box:nth-child(odd) {
@@ -672,7 +673,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         flex-direction: column;
         align-items: stretch;
         gap: 20px;
-        flex-shrink: 1;
+        /*flex-shrink: 1;*/
         justify-content: center;
     }
 
@@ -874,7 +875,8 @@ Utiliza las referencias de los breakpoints @media abajo */
         flex-direction: column;
         align-items: stretch;
         gap: 20px;
-        flex-shrink: 1;
+        /*flex-shrink: 1;*/
+        justify-content: center;
     }
 
     .experience__box:nth-child(odd) {
@@ -885,7 +887,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         flex-direction: column;
         align-items: stretch;
         gap: 20px;
-        flex-shrink: 1;
+        /*flex-shrink: 1;*/
         justify-content: center;
     }
     /*.experience__img{
