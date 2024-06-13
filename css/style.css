@@ -752,11 +752,14 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
     .title__network {
+        font-size: 14px;
         display: flex;
-        gap: 8px;
+        gap: 3px;
         margin: 0.5em 0;
     }
-
+    .title__network__item {
+        flex-grow: 1;
+    }
     .title__div .title__profile {
         width: 146px;
         height: 146px
@@ -895,7 +898,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     .experience__img{
         width: 296px;
         height: 144px;
-        object-fit: cover;
+        /*object-fit: cover;*/
     }
     .experience__info {
         width: 288px;
