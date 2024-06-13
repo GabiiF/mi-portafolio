@@ -828,17 +828,16 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Formación Académica*/
     section.academic {
         margin-top: 3em;
-        padding-top: 0;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAF2FD;
+    padding: 0 32px 32px;;
     }
     .academic__title{
         font-size: 22px;
         margin: 1.5em 0;
     }
-    .academic__courses__item__img {
-        padding: 1em;
-        height: 118px;
-    }
-
     .academic__courses {
         width: 90%;
         display: flex;
@@ -848,8 +847,16 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
     .academic__courses__box {
         width: auto;
-        height: 169px;
+        height: 215px;
     }
+    .academic__courses__list{
+        margin: 0;
+    }
+    .academic__courses__item__img {
+        padding: 1em;
+        height: 118px;
+    }
+    
     /*Experiencia Profesional*/
     section.experience{
         margin-bottom: 2em;
