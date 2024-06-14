@@ -258,9 +258,13 @@ section.academic {
     background-color: white;
     padding: 4em 5em;
     justify-content: center;
+    align-items: center;
     height: 130px;
 }
-
+.academic__courses__item__img img {
+    height: 130px;
+    width: 100%;
+}
 /* experiencia*/
 
 section.experience {
