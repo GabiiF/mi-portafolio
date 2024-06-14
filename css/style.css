@@ -885,7 +885,10 @@ Utiliza las referencias de los breakpoints @media abajo */
         padding: 1em;
         height: 118px;
     }
-    
+    .academic__courses__item__img img {
+        height: 58px;
+        width: 84px;
+    }
     /*Experiencia Profesional*/
     section.experience{
         margin-bottom: 2em;
