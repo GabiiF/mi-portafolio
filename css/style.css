@@ -261,10 +261,10 @@ section.academic {
     align-items: center;
     height: 130px;
 }
-.academic__courses__item__img img {
+/*.academic__courses__item__img img {
     height: 130px;
     width: 100%;
-}
+}*/
 /* experiencia*/
 
 section.experience {
@@ -656,6 +656,10 @@ Utiliza las referencias de los breakpoints @media abajo */
         padding: 1em;
         height: 118px;
     }
+    /*.academic__courses__item__img img {
+        height: 60px;
+        width: 102px;
+    }*/
     .academic__courses {
         width: 90%;
         display: flex;
@@ -889,10 +893,10 @@ Utiliza las referencias de los breakpoints @media abajo */
         padding: 1em;
         height: 118px;
     }
-    .academic__courses__item__img img {
+    /*.academic__courses__item__img img {
         height: 58px;
         width: 84px;
-    }
+    }*/
     /*Experiencia Profesional*/
     section.experience{
         margin-bottom: 2em;
