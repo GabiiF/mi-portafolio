@@ -287,7 +287,7 @@
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
                         usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
+                    <form class="formcontato__form" name="form" action="https://formsubmit.co/b853d776e99c6689cd53166c6f5c0adc" method="POST">
                         <div class="form-group">
                             <input class="formcontato__input" type="text" id="nombre" name="nombre" required>
                             <label for="nombre">Nombre</label>
@@ -305,6 +305,13 @@
                             <label for="mensaje" class="floating-label">Mensaje</label>
                         </div>
                         <button type="submit" class="formcontato__boton">Enviar mensaje</button>
+                        
+                        <!-- formsubmit -->
+                        <input type="hidden" name="_next" value="https://gabiif.github.io/mi-portafolio/">
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Forma de tabla -->
+                        <input type="hidden" name="_template" value="table">
+                        <!--Termina formsubmit  -->
                     </form>
                 </div>
             </div>
